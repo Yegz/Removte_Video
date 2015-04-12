@@ -24,7 +24,7 @@ CAM_V4L *cam;
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("gb2312"));
+    QTextCodec::setCodecForTr(QTextCodec::codecForName("gb2312"));   //  π”√gb2312
     int ret;
     info_msg_t demo;
     info_msg_t *genmsg = &demo;
